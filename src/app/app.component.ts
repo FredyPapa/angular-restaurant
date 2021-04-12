@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'restaurant';
+  dish = 'carapulcra';
+  taste = true;
+
+  changeTest():void{
+    this.taste = !this.taste;
+  }
 }
